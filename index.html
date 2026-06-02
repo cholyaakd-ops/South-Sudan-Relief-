@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>South Sudan Relief</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>South Sudan Relief</h1>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#locations">Locations</a>
+            <a href="#impact">Impact</a>
+            <a href="#register">Register</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="hero" style="background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%); color: white; text-align: center; padding: 50px 20px; margin-bottom: 30px; border-radius: 15px;">
+            <h2>Help Rebuild Lives After the Floods</h2>
+            <p>Your donation can provide food, shelter, and hope to families affected by floods in South Sudan.</p>
+            <a href="#register" style="display: inline-block; padding: 15px 30px; background: #fd79a8; color: white; text-decoration: none; border-radius: 25px; font-weight: 600; margin-top: 20px; transition: all 0.3s ease;">Donate Now</a>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing relief to flood-affected communities in South Sudan. Our operations are based in Juba, Bor, and Malakal. With your support, we deliver essential aid, rebuild infrastructure, and offer long-term recovery programs.</p>
+        </section>
+        <section id="locations">
+            <h2>Our Locations</h2>
+            <ul>
+                <li>Juba - Main Hub</li>
+                <li>Bor - Relief Distribution Center</li>
+                <li>Malakal - Emergency Response Base</li>
+            </ul>
+        </section>
+        <section id="impact">
+            <h2>Our Impact</h2>
+            <p>Since our founding, we've helped over 10,000 families with emergency supplies, medical aid, and rebuilding efforts. Join us in making a difference.</p>
+        </section>
+        <section id="register">
+            <h2>Donor Registration</h2>
+            <p>Register as a donor to stay informed and support our relief efforts in South Sudan.</p>
+            <form id="donor-registration-form" action="#" method="get">
+                <label for="donor-name">Full Name</label>
+                <input type="text" id="donor-name" name="donor_name" placeholder="Your full name" required>
+
+                <label for="donor-email">Email Address</label>
+                <input type="email" id="donor-email" name="donor_email" placeholder="you@example.com" required>
+
+                <label for="donor-phone">Phone Number</label>
+                <input type="tel" id="donor-phone" name="donor_phone" placeholder="+211 9xx xxx xxx">
+
+                <label for="donor-location">Location</label>
+                <input type="text" id="donor-location" name="donor_location" placeholder="City or region">
+
+                <label for="donor-message">Message</label>
+                <textarea id="donor-message" name="donor_message" rows="4" placeholder="Tell us why you want to help"></textarea>
+
+                <button type="submit">Register as Donor</button>
+            </form>
+            <div class="payment-methods">
+                <h3>Payment Methods</h3>
+                <p>Choose the donation option that works best for you, then complete payment details below.</p>
+                <ul>
+                    <li><a href="#payment-form">Bank transfer</a>: Account No. 123456789 at South Sudan Relief Bank</li>
+                    <li><a href="#payment-form">Mobile money</a>: +211 912 345 678</li>
+                    <li><a href="#payment-form">PayPal</a>: donations@southsudanrelief.org</li>
+                    <li><a href="#payment-form">Credit/Debit card</a>: Visa, MasterCard, American Express</li>
+                </ul>
+            </div>
+            <div id="payment-form" class="payment-form">
+                <h3>Payment Details</h3>
+                <form action="#" method="get">
+                    <label for="donation-amount">Donation Amount</label>
+                    <input type="number" id="donation-amount" name="donation_amount" placeholder="Enter amount" min="1" required>
+
+                    <label for="payment-method">Preferred Payment Method</label>
+                    <select id="payment-method" name="payment_method" required>
+                        <option value="">Select a method</option>
+                        <option value="bank_transfer">Bank transfer</option>
+                        <option value="mobile_money">Mobile money</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="card">Credit/Debit card</option>
+                    </select>
+
+                    <label for="payment-reference">Reference or note</label>
+                    <input type="text" id="payment-reference" name="payment_reference" placeholder="Transaction reference or note">
+
+                    <button type="submit">Submit Payment Details</button>
+                </form>
+                <p class="payment-note">Note: This is a frontend demo form only. Use the contact or payment method details above to complete your actual donation.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For questions or support, email us at <a href="mailto:info@southsudanrelief.org">info@southsudanrelief.org</a> or visit our website at <a href="https://www.southsudanrelief.org">www.southsudanrelief.org</a>.</p>
+        </section>
+        <section id="social">
+            <h2>Follow Us</h2>
+            <ul>
+                <li><a href="https://wa.me/1234567890">WhatsApp</a></li>
+                <li><a href="https://instagram.com/southsudanrelief">Instagram</a></li>
+                <li><a href="https://facebook.com/southsudanrelief">Facebook</a></li>
+                <li><a href="https://tiktok.com/@southsudanrelief">TikTok</a></li>
+                <li><a href="https://twitter.com/southsudanrelief">X/Twitter</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 South Sudan Relief. All rights reserved.</p>
+        <p>Contact us: Email: info@southsudanrelief.org | Website: www.southsudanrelief.org</p>
+    </footer>
+</body>
+</html>
